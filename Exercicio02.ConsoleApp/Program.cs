@@ -6,13 +6,17 @@ O programa deve solicitar ao usuário:
 
 Console.Clear();
 
-Console.Write("Informe a quantidade de KM percorrida: ");
-double km = Convert.ToDouble(Console.ReadLine());
+Console.Write("Informe a quantidade de KM inicial da viagem: ");
+double km_inicial = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Informe a quantidade de KM final da viagem: ");
+double km_final = Convert.ToDouble(Console.ReadLine());
+
 
 Console.Write("Informe a quantidade de litros de combustível abastecidos: ");
 double combustivel = Convert.ToDouble(Console.ReadLine());
 
-double media = km / combustivel;
+double media = (km_inicial+km_final)/combustivel;
 
 Console.WriteLine($"A média realizada pelo carro foi de: {media:F1} km/l");
 
