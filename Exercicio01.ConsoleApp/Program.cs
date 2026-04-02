@@ -3,18 +3,15 @@
 Console.Clear();
 
 Console.Write("Digite o valor do comprimento: ");
-string comprimento = Console.ReadLine();
-int c = Convert.ToInt32(comprimento);
+double comprimento = Convert.ToDouble(Console.ReadLine());
 
 Console.Write("Digite o valor da largura: ");
-string largura = Console.ReadLine();
-int l = Convert.ToInt32(largura);
+double largura = Convert.ToDouble(Console.ReadLine());
 
 Console.Write("Digite o valor da altura: ");
-string altura = Console.ReadLine();
-int a = Convert.ToInt32(altura);
+double altura = Convert.ToDouble(Console.ReadLine());
 
-int resultado = c * a * l;
+double resultado = comprimento * altura * largura;
 
 Console.WriteLine($"O volume da caixa é: {resultado:F2} cm³");
 
