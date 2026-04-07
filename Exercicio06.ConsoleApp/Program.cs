@@ -4,16 +4,13 @@
 Console.Clear();
 
 Console.Write("Informe o primeiro número: ");
-string num1 = Console.ReadLine();
-int numero1 = Convert.ToInt32(num1);
+int numero1 = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Informe o segundo número: ");
-string num2 = Console.ReadLine();
-int numero2 = Convert.ToInt32(num2);
+int numero2 = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Informe o terceiro número: ");
-string num3 = Console.ReadLine();
-int numero3 = Convert.ToInt32(num3);
+int numero3 = Convert.ToInt32(Console.ReadLine());
 
 int resultado = numero1 + numero2;
 
