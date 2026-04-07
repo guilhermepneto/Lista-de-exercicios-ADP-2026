@@ -5,11 +5,14 @@ Console.Clear();
 Console.Write("Informe a primeira nota: ");
 double nota1 = Convert.ToDouble(Console.ReadLine());
 
+Console.Write("Informe o peso da primeira prova: ");
+double peso1 = Convert.ToDouble(Console.ReadLine());
+
 Console.Write("Informe a primeira nota: ");
 double nota2 = Convert.ToDouble(Console.ReadLine());
 
-double peso1 = 5;
-double peso2 = 5;
+Console.Write("Informe o peso da segunda prova: ");
+double peso2 = Convert.ToDouble(Console.ReadLine());
 
 double media_final = ((nota1 * peso1) + (nota2 * peso2)) / (peso1 + peso2);
 
