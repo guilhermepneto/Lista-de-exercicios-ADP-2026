@@ -19,7 +19,6 @@ int resultado = numero1 + numero2;
 
 if (resultado > numero3)
 {
-
     return;
 }
 else if (resultado == numero3)
