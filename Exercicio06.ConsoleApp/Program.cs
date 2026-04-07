@@ -27,7 +27,7 @@ else if (resultado == numero3)
 }
 else if (resultado < numero3)
 {
-    Console.Write($"A soma dos valores A e B é de: {resultado}! Menor que valor de C");
+    Console.Write($"A soma dos valores A e B é de: {resultado}. Menor que o valor de C");
 }
 
 return;
