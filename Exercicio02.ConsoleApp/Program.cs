@@ -16,7 +16,7 @@ double km_final = Convert.ToDouble(Console.ReadLine());
 Console.Write("Informe a quantidade de litros de combustível abastecidos: ");
 double combustivel = Convert.ToDouble(Console.ReadLine());
 
-double media = (km_inicial+km_final)/combustivel;
+double media = (km_final - km_inicial) / combustivel;
 
 Console.WriteLine($"A média realizada pelo carro foi de: {media:F1} km/l");
 
