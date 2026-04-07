@@ -8,12 +8,11 @@ b. Pesquise sobre “fatorial”*/
 Console.Clear();
 
 Console.Write("Digite o número para aplicar o fatorial: ");
-//Decidi tentar usar o int.Parse para a conversão, usar o convert.toint32 demora mais para escrever
-int numero = int.Parse(Console.ReadLine());
+int numero = Convert.ToInt32(Console.ReadLine());
 
 int fatorial = 1;
 
-for (int num = 1; num <= numero; num++)
+for (int num = numero; num >= 1; num--)
 {
     fatorial *= num;
     Console.WriteLine(num + "! = " + fatorial);
