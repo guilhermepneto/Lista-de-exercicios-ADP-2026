@@ -3,10 +3,10 @@
 Console.Clear();
 
 Console.Write("Informe o número que deseja verificar: ");
-string numero = Console.ReadLine();
-int num = Convert.ToInt32(numero);
 
-if (num %2 == 0)
+int num = Convert.ToInt32(Console.ReadLine());
+
+if (num % 2 == 0)
 {
     Console.WriteLine("O número é par!");
 }
