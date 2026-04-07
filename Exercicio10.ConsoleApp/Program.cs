@@ -24,11 +24,11 @@ while (num <= 100)
     }
     else if (num % 3 == 0)
     {
-        Console.WriteLine("Buzz");
+        Console.WriteLine("Fizz");
     }
     else
     {
-        Console.WriteLine(num);
+        Console.WriteLine("");
     }
     num++;
 }
